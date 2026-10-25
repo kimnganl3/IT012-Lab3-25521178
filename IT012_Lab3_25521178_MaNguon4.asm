@@ -1,4 +1,4 @@
-# Lê Thi Kim Ngân - 25521178 - Ma nguon 4 - chuyen cau lenh thanh lenh hop ngu
+# LÃª Thi Kim NgÃ¢n - 25521178 - Ma nguon 4 - chuyen cau lenh thanh lenh hop ngu
 .text
 .globl main
 main:
@@ -10,9 +10,9 @@ main:
     add $t5, $s0, $s1
     add $t0, $t5, $s2
 
-    add $t6, $s0, $s1
-    addi $t7, $s2, 5
-    sub $t1, $t6, $t7
+    add $t5, $s0, $s1
+    addi $t5, $s2, 5
+    sub $t1, $t5, $t1
 
     add $t2, $zero, $s0
     
