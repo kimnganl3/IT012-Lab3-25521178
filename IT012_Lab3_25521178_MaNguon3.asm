@@ -1,4 +1,4 @@
-# Lê Thi Kim Ngân - 25521178 - Ma nguon 3 - dien nang tieu thu cua mot ho gia dinh (so lieu gia lap, kWh)
+# LÃª Thi Kim NgÃ¢n - 25521178 - Ma nguon 3 - dien nang tieu thu cua mot ho gia dinh (so lieu gia lap, kWh)
 # Bien       Thanh ghi
 # reading0   $s0   dau thang 1
 # reading1   $s1   dau thang 2
@@ -29,4 +29,4 @@ main:
     add $t3, $v1, $t2
     
     li   $v0, 10
-    syscall
+    syscall 
