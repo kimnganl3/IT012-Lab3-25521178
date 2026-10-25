@@ -21,9 +21,9 @@ main:
     # >>> usage3 = reading3 - reading2
     # >>> total = usage1 + usage2 + usage3   (hai lenh add)
     
-    subu $t0, $s1, $s0
-    subu $t1, $s2, $s1
-    subu $t2, $s3, $s2
+    sub $t0, $s1, $s0
+    sub $t1, $s2, $s1
+    sub $t2, $s3, $s2
     
     add $v1, $t0, $t1
     add $t3, $v1, $t2
